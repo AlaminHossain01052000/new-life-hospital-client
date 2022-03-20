@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Neurology",
+        "description": "Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the centralIt has two major divisions: Central nervous system:",
+        "img": "https://i.ibb.co/F0KMkGt/93187.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cardiology",
+        "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine.",
+        "img": "https://i.ibb.co/FW0TNqy/Human-Heart-Anatomy-Medical-anatomical-cardiology-template.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Gynechology",
+        "description": "Gynecology is the medical practice dealing with the health of the female reproductive system.The term means 'the science of women'. Its counterpart is andrology, which deals with medical issues specific to the male reproductive system.",
+        "img": "https://i.ibb.co/3pNDq9R/Newborn-Baby.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Oncology",
+        "description": "Oncology is a branch of medicine that deals with the prevention, diagnosis, and treatment of cancer. A medical professional who practices oncology is an oncologist. The name's etymological origin is the Greek word ὄγκος, meaning 1. burden, volume",
+        "img": "https://i.ibb.co/zV1xqg4/download-3.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dermatology",
+        "description": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, and some cosmetic problems.,",
+        "img": "https://i.ibb.co/KKZT577/dermatologist-examining-patient-for-signs-of-skin-royalty-free-image-1581377346.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Orthopedics",
+        "description": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both surgical and nonsurgical means to treat musculoskeletal trauma, spine diseases",
+        "img": "https://i.ibb.co/vhyNXj6/Female-patient-examining-spine-at-physiotherapist-at-vertebrology-center.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Diagnostic Center",
+        "description": "Medical diagnosis (abbreviated Dx,[1] Dx, or Ds) is the process of determining which disease or condition explains a person's symptoms and signs. It is most often referred to as diagnosis with the medical context being implicit. ",
+        "img": "https://i.ibb.co/YTr1FMV/Close-up-revealing-shot-medical-dentistry-display-with-teeth-diagnosis-xray-images-on-it-Empty-profe.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Pharmacy",
+        "description": "Pharmacy is the clinical health science that links medical science with chemistry and it is charged with the discovery, production, disposal, safe and effective use, and control of medications and drugs",
+        "img": "https://i.ibb.co/mBry3jj/buying-medical-supplies-with-shopping-cart-concept.jpg"
+    }
+]
