@@ -6,7 +6,7 @@ const HomeContactUs = () => {
     return (
         <section className="my-5">
             <Container>
-                <h1 style={{ textAlign: "left" }} className="mb-4">Contact Us</h1>
+                <h1 style={{ textAlign: "left" }} className="text-center text-danger mb-5">Contact Us</h1>
                 <div className="d-lg-flex justify-content-around ">
                     <div className="mb-4">
                         <Form>

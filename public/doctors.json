@@ -6,6 +6,9 @@
         "email": "Sincere@april.biz",
         "img": "https://i.ibb.co/xJqmGKM/Confident-young-Asia-female-doctor-in-white-medical-uniform-with-stethoscope-looking-at-camera-and-s.jpg",
         "specialist": "Neurologist",
+        "visit": 500,
+        "review": 5,
+        "numberOfReview": 10,
         "address": {
             "street": "Kulas Light",
             "suite": "Apt. 556",
@@ -31,6 +34,9 @@
         "email": "Shanna@melissa.tv",
         "img": "https://i.ibb.co/7VbWbw4/Portrait-of-smiling-doctor-standing-in-hospital-premises.jpg",
         "specialist": "Cardiologist",
+        "visit": 800,
+        "review": 4,
+        "numberOfReview": 9,
         "address": {
             "street": "Victor Plains",
             "suite": "Suite 879",
@@ -56,6 +62,7 @@
         "email": "Nathan@yesenia.net",
         "img": "https://i.ibb.co/fXSS20N/doctor-standing-with-folder-stethoscope.jpg",
         "specialist": "Cancer Specialist",
+        "visit": "1500",
         "address": {
             "street": "Douglas Extension",
             "suite": "Suite 847",
@@ -81,6 +88,9 @@
         "email": "Julianne@kory.org",
         "img": "https://i.ibb.co/KV0Cx3K/Portrait-of-smiling-doctor-looking-at-camera-on-background-of-his-working-colleagues.jpg",
         "specialist": "Nephrologist",
+        "visit": 1200,
+        "review": 4,
+        "numberOfReview": 8,
         "address": {
             "street": "Hoeger Mall",
             "suite": "Apt. 692",
@@ -106,6 +116,9 @@
         "email": "Lucio_Hett@annie.ca",
         "img": "https://i.ibb.co/tCCSnB9/Happy-young-male-doctor-using-tablet-computer-Guy-wearing-white-coat-and-standing-Medicine-and-techn.jpg",
         "specialist": "Nephrologist",
+        "visit": 1100,
+        "review": 4,
+        "numberOfReview": 11,
         "address": {
             "street": "Skiles Walks",
             "suite": "Suite 351",
@@ -131,6 +144,9 @@
         "email": "Karley_Dach@jasper.info",
         "img": "https://i.ibb.co/3f1t87f/Hospital-healthcare-workers-covid-19-treatment-concept-Young-doctor-in-scrubs-making-daily-errands-c.jpg",
         "specialist": "Orthopedics",
+        "visit": 600,
+        "review": 3.5,
+        "numberOfReview": 8,
         "address": {
             "street": "Norberto Crossing",
             "suite": "Apt. 950",
@@ -156,6 +172,9 @@
         "email": "Telly.Hoeger@billy.biz",
         "img": "https://i.ibb.co/G7tfS0C/Japanese-doctor-with-short-grey-hair-and-glasses-smiling-towards-camera-in-hospital-corridor-confide.jpg",
         "specialist": "Psychiartist",
+        "visit": 850,
+        "review": 5,
+        "numberOfReview": 5,
         "address": {
             "street": "Rex Trail",
             "suite": "Suite 280",
@@ -181,6 +200,9 @@
         "email": "Sherwood@rosamond.me",
         "img": "https://i.ibb.co/WDjXRPZ/Digital-composition-of-a-confident-male-doctor-standing-against-blue-background.jpg",
         "specialist": "Dermatologist",
+        "visit": 900,
+        "review": 4,
+        "numberOfReview": 11,
         "address": {
             "street": "Ellsworth Summit",
             "suite": "Suite 729",
@@ -206,6 +228,9 @@
         "email": "Chaim_@dana.io",
         "img": "https://i.ibb.co/QK0jNvt/mike.jpg",
         "specialist": "Orthopedics",
+        "visit": 550,
+        "review": 5,
+        "numberOfReview": 10,
         "address": {
             "street": "Dayna Park",
             "suite": "Suite 449",
@@ -231,6 +256,9 @@
         "email": "Rey.Padberg@karina.biz",
         "img": "https://i.ibb.co/980rCdF/Portrait-of-successful-young-doctor-with-folder-and-stethoscope-African-American-general-practitione.jpg",
         "specialist": "Gynochologist",
+        "visit": 900,
+        "review": 4.5,
+        "numberOfReview": 11,
         "address": {
             "street": "Kattie Turnpike",
             "suite": "Suite 198",

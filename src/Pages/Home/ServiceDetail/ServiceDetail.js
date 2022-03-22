@@ -1,24 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 const ServiceDetail = () => {
     const params = useParams();
-    const [services, setServices] = useState([]);
-    const [service, setService] = useState([]);
+    // const [services, setServices] = useState([]);
+    const [service, setService] = useState({});
+    console.log(service);
     useEffect(() => {
-        fetch("/services.json")
+        fetch(`https://newlife-hospital-server.vercel.app/services/${params.id}`)
             .then(res => res.json())
             .then(data => {
-                setServices(data)
+                setService(data)
 
             })
 
 
     }, [])
-    useEffect(() => {
-        setService(services.filter(service => service.id === Number(params.id)))
-    }, [services])
+
 
 
 
@@ -29,15 +28,15 @@ const ServiceDetail = () => {
     return (
         <div>
             <Card className="bg-dark text-white">
-                <Card.Img src={service[0]?.img} alt="Card image" />
+                <Card.Img src={service?.img} alt="Card image" />
                 <Card.ImgOverlay>
-                    <Card.Title>{service[0]?.name}</Card.Title>
+                    <Card.Title>{service?.name}</Card.Title>
                     <Card.Text>
-                        {service[0]?.description}
+                        {service?.description}
                     </Card.Text>
                 </Card.ImgOverlay>
             </Card>
-
+            <Link to="/" className="text-danger text-center mx-auto">Home</Link>
         </div>
     );
 };

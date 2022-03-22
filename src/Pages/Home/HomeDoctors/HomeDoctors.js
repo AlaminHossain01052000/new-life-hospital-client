@@ -5,7 +5,7 @@ import HomeDoctor from '../HomeDoctorCard/HomeDoctor';
 const HomeDoctors = () => {
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
-        fetch("./doctors.json")
+        fetch("https://newlife-hospital-server.vercel.app/doctors")
             .then(res => res.json())
             .then(data => setDoctors(data))
 
@@ -15,7 +15,7 @@ const HomeDoctors = () => {
     return (
         <div>
             <Container>
-                <h1>Our Doctors</h1>
+                <h1 className='text-center mb-5 text-danger'>Our Doctors</h1>
                 <Row sm={1} md={2} lg={3} xs={1} >
                     {
                         doctors.slice(0, 6).map(doctor => <HomeDoctor doctor={doctor}></HomeDoctor>)

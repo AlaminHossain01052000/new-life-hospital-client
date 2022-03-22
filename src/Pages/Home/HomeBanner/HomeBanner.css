@@ -1,0 +1,14 @@
+.carosol-img{
+    height: 500px;
+    width: 100%;
+    position: relative;
+   
+}
+.carosol-poster{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

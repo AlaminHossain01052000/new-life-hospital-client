@@ -7,17 +7,17 @@ const HomeServiceCard = (props) => {
 
     return (
         <Col>
-            <Card>
+            <Card className='mb-5'>
                 <Card.Img variant="top" src={s.img} />
-                <Card.Body>
+                <Card.Body >
                     <Card.Title>{s.name}</Card.Title>
-                    <Card.Text>
+                    <Card.Text className="">
                         {s.description}
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer>
-                    <Link to={`/serviceDetail/${s.id}`}>
-                        More
+                <Card.Footer className='mt-5'>
+                    <Link to={`/serviceDetail/${s._id}`}>
+                        <button className="btn btn-warning">More...</button>
                     </Link>
                 </Card.Footer>
             </Card>
