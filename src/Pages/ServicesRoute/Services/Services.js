@@ -5,6 +5,7 @@ import Service from '../Service/Service';
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
+
         fetch("https://newlife-hospital-server.vercel.app/services")
             .then(res => res.json())
             .then(data => {
